@@ -1,0 +1,7 @@
+Using Ansible’s pull method
+The way we set up our Ansible configuration in the previous section works very well if we have a list
+of specific servers that we want it to manage. To add a new server, we create the user account and set
+up the SSH configuration on the new host, and then add it to the inventory file. If we decommission
+that server, we simply remove it from the inventory file. This works well in a static environment,
+where servers you deploy typically stay around for a while. In a dynamic environment, though, this
+may not work as well.
