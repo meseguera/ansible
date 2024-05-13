@@ -10,3 +10,8 @@
     - name: Upgrade all packages
       apt:
         upgrade: safe
+    - name: Refresh pro subscription
+      pro:
+        refresh: yes
+        
+        
