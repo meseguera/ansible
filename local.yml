@@ -1,6 +1,6 @@
 ---
 - name: Update Ubuntu system packages
-  hosts: vpshost
+  hosts: localhost
   become: yes
   tasks:
     - name: Update APT package cache
