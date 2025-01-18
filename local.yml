@@ -1,6 +1,6 @@
 ---
 - name: Update Ubuntu system packages
-  hosts: all
+  hosts: picluster
   become: yes
   tasks:
     - name: Update APT package cache
